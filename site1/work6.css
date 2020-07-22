@@ -1,0 +1,124 @@
+body{
+	
+	background-color:black;
+	color:white;
+	padding:10px;
+	
+}
+p{
+	color:skyblue;
+	font-size:25px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+li{
+	
+	font-size:20px;
+	
+	
+}
+h1{
+	border:5px solid red;
+	border-radius:25px;
+	margin-bottom:50px;
+	padding:20px;
+	text-align:center;
+	font-size:50px;
+	background-color:forestgreen;
+	color:black;
+	
+	
+}
+h2{
+	border:3px solid lime;
+	padding:10px;
+	font-size:30px;
+	background-color:dodgerblue;
+	opacity:1;
+	color:black;
+	
+}
+img{
+	width:250px;
+	height:250px;
+	padding:10px;
+}
+#test{
+color:skyblue;
+padding:20px;	
+}
+.para
+{
+	width:50%;
+	margin:0 20px;
+	font-size:25px;
+	color:black;
+}
+.material-icons li{
+	list-style:none;
+	padding-left:20px;	
+}
+.material-icons li:before{
+	content:"✏️";
+	padding-right:10px;
+}
+.assign-ol li{
+	list-style-type:upper-roman;
+	padding-left:20px;
+	}
+   p > span{
+	 font-style:italic;
+	}
+.remove{
+	font-style:normal;
+	color:red;
+}
+ p > span:last-child{
+	text-decoration:underline;
+}
+article{
+	display:flex;
+	margin:0 10px;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+#ings {
+	background-color:white;
+	margin:10 20px;
+	color:black;
+	padding-bottom:10px;
+	width:400px;
+	border-radius:25px;
+
+}
+#steps{
+	width:400px;
+	background-color:white;
+	margin:10 20px;
+	color:black;
+	padding-bottom:10px;
+	border-radius:25px;
+}
+@media screen and (max-width:400px){
+	body{
+		background-color:gray;
+}}
+section#test{
+	background-color:orange;
+	padding:10px;
+	color:black;
+	}
+@media screen and (max-width:750px) and (min-width:401px){
+	section#test{
+		display:none;
+	}
+}
+
+@media screen and (min-width:750px) {
+ #test{
+	   margin:0 200px;
+}}
+
+	
+/*refernce:url(https://www.w3schools.com/csSref/css3_pr_all.asp)*/
